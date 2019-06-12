@@ -1,0 +1,22 @@
+3,4,1,1,0,2,1,   !NOSEG,NUMFLOW,NUMDHT,HDT,START,END,NUM_LAYER
+0,1,             !NUMFLOW times JQ IQ
+1,2,
+2,3,
+3,0,            
+!                !NOCYCLES times (NOSEG and NUMFLOW times inputs)
+!                !1st cycle
+1,1,0.25,        !NOSEG times SegVolume, Segdepth, SegVel (, Temperature, Salinity)
+1,1,0.25,
+1,1,0.25,
+1,0.1,1,1,       !NUMFLOW times Flow, crnu, brintt, iflowdir
+1,0.1,1,1,
+1,0.1,1,1,       
+1,0.1,1,1,
+!                !2nd cycle1,1,0.25,       
+1,1,0.25,
+1,1,0.25,
+1,1,0.25,
+1,0.1,1,1,       
+1,0.1,1,1,       
+1,0.1,1,1,       
+1,0.1,1,1
