@@ -1,0 +1,13 @@
+a
+e
+TR_60s_77d.txt
+TR_60s_77d.hyd
+6
+16
+2012
+0
+0
+0
+segmap_TR.txt
+20
+0
